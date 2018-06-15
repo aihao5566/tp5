@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>
+    	{// 添加一个坑}
+    	{block name="title"}
+    		测试模板继承index
+    	{/block}
+    </title>
+</head>
+<body>
+    {//include file="common/head" /}
+    {block name="body"}
+    		测试模板继承body
+    {/block}
+    <div>
+		{block name="footer"}
+    		footer
+    	{/block}
+    </div>
+    
+</body>
+</html>
