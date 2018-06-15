@@ -539,7 +539,7 @@ class Index extends Base
             exit;
         }
         Log::record($ret,'测试结果');
-        //csss
+        //cssssss
         echo $ret;//成功返回 success 失败返回 fail
         exit;
     }
