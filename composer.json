@@ -30,7 +30,8 @@
         "overtrue/wechat": "^3.3",
         "kartik-v/bootstrap-fileinput": "@dev",
         "riverslei/payment": "*",
-        "yansongda/pay": "^1.0"
+        "yansongda/pay": "^1.0",
+        "taskphp/taskphp": "dev-master"
     },
     "extra": {
         "think-path": "thinkphp"

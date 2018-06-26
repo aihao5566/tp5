@@ -29,7 +29,6 @@ use Payment\Common\PayException;//支付用
 use Payment\Client\Charge;
 use Payment\Client\Notify;
 use Payment\Config as PaymentConfig;
-use Yansongda\Pay\Pay;
 // use Test;
 class Index extends Base
 {
@@ -53,11 +52,14 @@ class Index extends Base
 
     public function ceshi()
     {
-
-    	$test = new \test\Test();  //命名空间下的自动注册没有use
+        //extend会自动读取文件下的扩展
+    	$test = new \test\Test();  //命名空间下的自动注册没有use时需要\
     	echo $test->sayHello();
-    	$myTest = new myTest\myTest();  //命名空间下的手动注册有use不需要最前面的\ 在应用配置文件
+    	//自定义的
+    	$myTest = new myTest\myTest();  //命名空间下的手动注册有use不需要最前面的\ 在应用配置文件配置
     	echo $myTest->sayBey();
+    	//echo 'app\\index\\controller';
+    	dump(\test\Test::class);//返回完整的类名
         dump(\think\Config::get('ceshi.abc'));  //扩展配置测试
         dump(\think\Config::get('queue.connector'));  //扩展配置测试
         return config('bcd');
@@ -539,7 +541,7 @@ class Index extends Base
             exit;
         }
         Log::record($ret,'测试结果');
-        //
+
         echo $ret;//成功返回 success 失败返回 fail
         exit;
     }
