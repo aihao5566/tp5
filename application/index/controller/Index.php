@@ -59,7 +59,7 @@ class Index extends Base
     	$myTest = new myTest\myTest();  //命名空间下的手动注册有use不需要最前面的\ 在应用配置文件配置
     	echo $myTest->sayBey();
     	//echo 'app\\index\\controller';
-    	dump(\test\Test::class);//返回完整的类名
+    	dump(\test\Test::class);//返回完整的类名字符串
         dump(\think\Config::get('ceshi.abc'));  //扩展配置测试
         dump(\think\Config::get('queue.connector'));  //扩展配置测试
         return config('bcd');
@@ -69,7 +69,7 @@ class Index extends Base
     public function index()
     {
 
-
+//        dump($this->request->param());die;
 //        dump(request()->siteName);//注入属性
 //        dump($this->request->user(1));die;//注入方法
         //行为侦听
@@ -88,7 +88,7 @@ class Index extends Base
 //        //获取器还可以定义数据表中不存在的字段(getTitleTextAttr)
 //        $user = User::get(1);  //取出主键为1的数据等同于get(['id'=>1]) $user是个对象 
 //        用模型层查询处理得到的是对象,toArray转化为数组,
-//        用Db类select,find得到的是数组,select可以修改数据库配置collection输出为对象，模型的区别还是很大
+//        用Db类select,find得到的是数组,可以修改数据库配置collection输出为对象，模型的区别还是很大
 //        $user->title_text = -1;
 //        echo $user->title_text;DIE; // 例如输出“删除”
         $request = Request::instance();
@@ -142,6 +142,13 @@ class Index extends Base
             if(!$validate->scene('add')->check($data)) {  //批量验证一次性获得所有的错误消息有另一个方法
                 $this->error($validate->getError());
             }
+
+            //对接收的数据统一处理的方法
+//            $validate->scene('add');
+//            if(!$validate->goCheck()) {  //批量验证一次性获得所有的错误消息有另一个方法
+//                //dump($validate->getErrorMsg());die;
+//                $this->error($validate->getError());
+//            }
 //            //验证的另一种方法
 //            $result = $this->validate($data,'User');
 //            if(true !== $result){
@@ -202,8 +209,8 @@ class Index extends Base
                     ]);
 //                halt($sql);//用tp自带的调试器查看sql
                 $this->success('添加成功','index/index');
-//                 return $this->fetch(); //测试当前对象是否还保留着request对象的属性(测试的是搜索)不能使用$this要使用系统变量
-//                $this->success('添加成功','index/index',['cate'=>45],3);//测试带参数
+//                 return $this->fetch(); //测试当前对象是否还保留着request对象的属性(测试的是搜索)前端不能使用$this要使用系统变量
+//                $this->success('添加成功','index/index',['cate'=>45],3);//测试带参数ajax
             }
 
         }
