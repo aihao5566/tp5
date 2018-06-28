@@ -145,8 +145,7 @@ class Index extends Base
 
             //对接收的数据统一处理的方法
 //            $validate->scene('add');
-//            if(!$validate->goCheck()) {  //批量验证一次性获得所有的错误消息有另一个方法
-//                //dump($validate->getErrorMsg());die;
+//            if(!$validate->goCheck()) {
 //                $this->error($validate->getError());
 //            }
 //            //验证的另一种方法
