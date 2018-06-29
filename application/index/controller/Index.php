@@ -379,10 +379,16 @@ class Index extends Base
         $comments = $article->comments;
         foreach ($comments as $k=>$comment){
             //当前文章的所有评论信息
-            dump($comment->content);
+            //dump($comment->content);
             //循环删除所有评论
 //            $article->comments()->delete();
         }
+        //查询文章的所有评论(另一种方法多用于api接口)
+        $map['id'] = 1;
+        $obj       = new Article();
+        $data      = $obj->CommentsList($map);
+        dump($data);
+        dump($data->getData());
         //删除当前文章
 //        $article->delete();
         //根据评论找到文章
