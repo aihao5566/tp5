@@ -45,7 +45,8 @@ class Index extends Base
 //     }
 
     /**_initialize的流程理解：
-     * _initialize()方法在所有方法前先执行。执行操作方法时，先实例化Index.php文件下的Index类，它的基类初始化函数__construct会执行，
+     * _initialize()方法在所有方法前先执行。执行操作方法时，先实例化Index.php文件下的Index类，Index继承Base类，Base继承Controller类
+     * 所以文件的执行顺序为index->base->Controller,它的基类初始化函数__construct会执行，
      * 又因为基类存在_initialize()方法，基类的会被覆盖
      */
     public function _initialize()
