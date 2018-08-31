@@ -8,7 +8,7 @@ use think\console\input\Argument;
 use think\console\input\Option;
 
 // 载入taskphp入口文件
-//composer require taskphp/taskphp这个会影响队列监听php think queue:listen
+//composer require taskphp/taskphp这个会影响队列监听php think queue:listen。
 //require_once dirname(APP_PATH).'/vendor/taskphp/taskphp/src/taskphp/base.php';
 
 /*class Taskphp extends Command{
