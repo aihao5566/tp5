@@ -8,9 +8,10 @@ use think\console\input\Argument;
 use think\console\input\Option;
 
 // 载入taskphp入口文件
-require_once dirname(APP_PATH).'/vendor/taskphp/taskphp/src/taskphp/base.php';
+//composer require taskphp/taskphp这个会影响队列监听php think queue:listen
+//require_once dirname(APP_PATH).'/vendor/taskphp/taskphp/src/taskphp/base.php';
 
-class Taskphp extends Command{
+/*class Taskphp extends Command{
 
     protected function get_config(){
         return [
@@ -47,4 +48,4 @@ class Taskphp extends Command{
         //运行框架
         \taskphp\App::run();
     }
-}
+}*/

@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",//"php": ">=5.4.0",
+        "php": ">=5.4.0",
         "topthink/framework": "5.0.9",
         "topthink/think-image": "^1.0",
         "topthink/think-migration": "^1.0",
@@ -25,13 +25,11 @@
         "topthink/think-testing": "^1.0",
         "topthink/think-worker": "^1.0",
         "topthink/think-helper": "^1.0",
-        "topthink/think-queue": "^2.0",
         "topthink/think-angular": "^1.0",
         "overtrue/wechat": "^3.3",
         "kartik-v/bootstrap-fileinput": "@dev",
         "riverslei/payment": "*",
-        "yansongda/pay": "^1.0",
-        "taskphp/taskphp": "dev-master"
+        "topthink/think-queue": "^2.0"
     },
     "extra": {
         "think-path": "thinkphp"
