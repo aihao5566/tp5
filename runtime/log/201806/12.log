@@ -1,0 +1,53 @@
+gmt_create : 2018-06-13 09:53:14
+  charset : UTF-8
+  subject : 测试支付宝电脑网站支付（即时到账）
+  sign : l4b5PTEAPEeeB9i2r0qTJOrssBOdRrSLwVh8zUjBT5FtkKJJASu6pWGoemhRRkCc8ICCK5B4ZjBVEVATXFAMTT5CicoSgmXgymx3CQRf07VOEhy73xFTrefoTf7L1MyJtTvBFU3dtnB0gQJRrgG4PAuPvm6U0/3soIKDhvvzDB/ANcRAhTuskQzcRQMWN8pcxT9vRVrhESuJGiOimcnrBOwg6WbelieAev4CKxWJTGklmDFm2htPU9wnKbpoVqcoH+e+YemPRK+7tgoxo5s+Fjd/yuIgaDbVHpH5nInZ0Ffwti3uWcS1F1GbvGjjshwieY2afBXiI+BrelV+HEMAbQ==
+  buyer_id : 2088102176184453
+  body : ali web pay
+  invoice_amount : 0.01
+  notify_id : b44e0204b7440d7fc12f31b8cc494ddjh2
+  fund_bill_list : [{"amount":"0.01""fundChannel":"ALIPAYACCOUNT"}]
+  notify_type : trade_status_sync
+  trade_status : TRADE_SUCCESS
+  receipt_amount : 0.01
+  app_id : 2016091400512362
+  buyer_pay_amount : 0.01
+  sign_type : RSA2
+  seller_id : 2088102175650881
+  gmt_payment : 2018-06-13 09:53:20
+  notify_time : 2018-06-13 09:57:31
+  passback_params : 123123
+  version : 1.0
+  out_trade_no : 15288545149499
+  total_amount : 0.01
+  trade_no : 2018061321001004450200425197
+  auth_app_id : 2016091400512362
+  point_amount : 0.00
+
+body : test body
+  subject : test subject
+  sign_type : RSA2
+  buyer_logon_id : aaq***@sandbox.com
+  auth_app_id : 2016073100130857
+  notify_type : trade_status_sync
+  out_trade_no : 14893825198432
+  point_amount : 0.00
+  version : 1.0
+  fund_bill_list : [{"amount":"0.01""fundChannel":"ALIPAYACCOUNT"}]
+  passback_params : 123
+  buyer_id : 2088102169940354
+  total_amount : 0.01
+  trade_no : 2017031321001004350200145287
+  notify_time : 2017-03-13 13:23:05
+  charset : UTF-8
+  invoice_amount : 0.01
+  gmt_payment : 2017-03-13 13:23:04
+  trade_status : TRADE_SUCCESS
+  sign : SrfDm1whLHx8PeFcPbAEn7S43+OTMy5ZnTxv42jpCeRXz8poKS0n542Nf4eAq7+Jfta1vMqybMFf9C4Cl+3WEPFbndU2WGpboyU2CPUcSoYaBE68H1/ImNUomEi3vMjJe3H4s/z+LOnVcH8luO0bbSB79kKupec0fdm9V9Wg2axaZD9UkRLwBvoXsDx9tFOAwhqHyY1ZPq/1SQj5cwhQ2luKhJaqjO4L4Z819b+vHZfuaKX3xt5pgCQXiSVLo+fA/Y0RmDfNngZML8UndYyXpXmgTMH2grR7D65ODPlatDt3JsNe9U2Kj/7uVXdPR2Tey3ikL4W4Pn4/ULq8ow3YHw==
+  gmt_create : 2017-03-13 13:23:03
+  buyer_pay_amount : 0.01
+  receipt_amount : 0.01
+  seller_id : 2088102169252684
+  app_id : 2016073100130857
+  seller_email : naacvg9185@sandbox.com
+  notify_id : 27d63b0f7da1e21d932b6ec9176a052ipa

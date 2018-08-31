@@ -1,0 +1,740 @@
+---------------------------------------------------------------
+[ 2018-06-15T01:52:00+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] 40542a09.ngrok.io/index/index/pay [运行时间：1.721098s][吞吐率：0.58req/s] [内存消耗：2,463.86kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '40542a09.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.022001s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T01:52:20+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] 40542a09.ngrok.io/notify/ali [运行时间：0.692040s][吞吐率：1.45req/s] [内存消耗：3,613.95kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => '40542a09.ngrok.io',
+  'content-length' => '1184',
+  'x-forwarded-for' => '121.0.27.144',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 01:52:29',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => '1COVtiXCKkGxyHOZwP2kFWhhyuS2WQeAtZonSlPj6paTS2bK57mIyvaRAeWvIDR7GmNY7arNiIDrqb6Zj76NJTpMe6BIoIKvQvTzxWELFmrzUREM/TrCAJ+Cu0rQjZGkbTofBSAEllX1iaI6ZYx89KXA5HOt9hm1oSAJuTlz8tnGCCe3WIZJ69mOPE4FRxjfG5pwjgv9AkpMYjxojMbgHQyVoAcPnJPK7pzboMCTH3miTUJJ6EFSy+sYW82A/UIXjLJ2eZGZtqO18ezrV2LgP6Bqfx6+Ik93zQ5KJhVXv6D/NgRB7Y0viTiHgUQYvAaQ6RG/cvctu6uxzNlJBN9p4g==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => 'fb04b94b384c216c19a3730e497a021jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 01:52:38',
+  'notify_time' => '2018-06-15 01:52:40',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15289987198252',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200434007',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ $_POST ] array (
+  'gmt_create' => '2018-06-15 01:52:29',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => '1COVtiXCKkGxyHOZwP2kFWhhyuS2WQeAtZonSlPj6paTS2bK57mIyvaRAeWvIDR7GmNY7arNiIDrqb6Zj76NJTpMe6BIoIKvQvTzxWELFmrzUREM/TrCAJ+Cu0rQjZGkbTofBSAEllX1iaI6ZYx89KXA5HOt9hm1oSAJuTlz8tnGCCe3WIZJ69mOPE4FRxjfG5pwjgv9AkpMYjxojMbgHQyVoAcPnJPK7pzboMCTH3miTUJJ6EFSy+sYW82A/UIXjLJ2eZGZtqO18ezrV2LgP6Bqfx6+Ik93zQ5KJhVXv6D/NgRB7Y0viTiHgUQYvAaQ6RG/cvctu6uxzNlJBN9p4g==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => 'fb04b94b384c216c19a3730e497a021jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 01:52:38',
+  'notify_time' => '2018-06-15 01:52:40',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15289987198252',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200434007',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+)
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027001s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.101006s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.001000s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T08:27:05+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] fdf53dc0.ngrok.io/index/index/pay [运行时间：2.197126s][吞吐率：0.46req/s] [内存消耗：2,463.41kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fdf53dc0.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.032001s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T08:29:14+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] fdf53dc0.ngrok.io/index/index/pay [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,463.59kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fdf53dc0.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T08:29:55+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] fdf53dc0.ngrok.io/notify/ali [运行时间：0.929053s][吞吐率：1.08req/s] [内存消耗：3,611.99kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'fdf53dc0.ngrok.io',
+  'content-length' => '1192',
+  'x-forwarded-for' => '140.205.118.90',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 08:29:45',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'gQ9AXQcQH/SqN1OeeUe35+8mga//gfDfzahbxlbY7PG63MhDS2NpPgyeLUGWnz15vRk/96MgI4vTw/oOFoiyh2kCk2xTeLT0YG5J5/lsIwrkRlQb1LqigSpLiiXUSXaSJ06P92eo13L15iyTOvwq0EyzaQoUv1Okv1MQwgrwdfUfBlBmXKCsbkIF539yK0vXQaUV7SBOJLkB2oTXby3eyT9Qf1sX/h2ZVCBpRqpOOkUp2VaKxtN38JgYxgU/z3bmBiaBinZ32iD+eq8eGFU2XfPxo6c68DYmpRP2jmLpz2PlTtsqxWiREs+4mnVjR9kVs8Av2M4zm17rrdKKuBkGlg==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => '73630ab0917aa051e2c7796d51aaec2jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 08:30:12',
+  'notify_time' => '2018-06-15 08:30:14',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290225541420',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200434008',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048003s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.147008s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.001000s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T08:31:33+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] fdf53dc0.ngrok.io/index/index/pay [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：2,463.59kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'fdf53dc0.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T08:31:44+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] fdf53dc0.ngrok.io/notify/ali [运行时间：0.295017s][吞吐率：3.39req/s] [内存消耗：3,611.98kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'fdf53dc0.ngrok.io',
+  'content-length' => '1194',
+  'x-forwarded-for' => '140.205.118.37',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 08:27:43',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'D/ILOBO6CG7Q5SgJvhWIo1+fECzI8efq+y7CjG1r9bE9TRxqhsHCrFmUG9SZVbiS26ypEgHEM7GOer509TziPBtIFLU/aU3NG0c1pK8GhmBtl3K25L18NUJU3t65Zpz62jV7QHYPA68ae2kEC9YkRMftUAY4/7Kiy4upOcMSv07Nw6u9K4hOvP0EjB76WxJuaFnXjGE5fKOTQZhnU/76ZpjW/+F4qR0AASZotj53Gx0bmg1lEslBgDNy6WAvwKiUjSS7/ZmwYt7J42mDgoZ1HB7WS0fCFmMW3uHsEJx128VyQ+gcnCUYzXnr1tB3yNSbOh8f497F++kpdtdoZkmKPA==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => '500c427755071f48627c8f3e973e030jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 08:28:00',
+  'notify_time' => '2018-06-15 08:32:03',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290224241010',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200432612',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034002s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.079005s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.001000s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T08:31:44+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] fdf53dc0.ngrok.io/notify/ali [运行时间：0.250015s][吞吐率：4.00req/s] [内存消耗：3,612.03kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'fdf53dc0.ngrok.io',
+  'content-length' => '1194',
+  'x-forwarded-for' => '140.205.118.7',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 08:27:43',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'D/ILOBO6CG7Q5SgJvhWIo1+fECzI8efq+y7CjG1r9bE9TRxqhsHCrFmUG9SZVbiS26ypEgHEM7GOer509TziPBtIFLU/aU3NG0c1pK8GhmBtl3K25L18NUJU3t65Zpz62jV7QHYPA68ae2kEC9YkRMftUAY4/7Kiy4upOcMSv07Nw6u9K4hOvP0EjB76WxJuaFnXjGE5fKOTQZhnU/76ZpjW/+F4qR0AASZotj53Gx0bmg1lEslBgDNy6WAvwKiUjSS7/ZmwYt7J42mDgoZ1HB7WS0fCFmMW3uHsEJx128VyQ+gcnCUYzXnr1tB3yNSbOh8f497F++kpdtdoZkmKPA==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => '500c427755071f48627c8f3e973e030jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 08:28:00',
+  'notify_time' => '2018-06-15 08:32:03',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290224241010',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200432612',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.001001s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T08:31:55+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] fdf53dc0.ngrok.io/notify/ali [运行时间：0.255015s][吞吐率：3.92req/s] [内存消耗：3,611.99kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'fdf53dc0.ngrok.io',
+  'content-length' => '1190',
+  'x-forwarded-for' => '140.205.118.11',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 08:32:02',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'G5LOqVtRtBIP2CVwyPDwLuXoK2ER8laIIPlo6JrFWbhnhQcTk18zjPx5qkH9WVZjchoVqyNgIrWxMaxfzhGxpp6MOsUPlHTCiY6fw6xXsaRS6O4CT7gHM7Pi5ZjrRjjyiOfp5L8VvQ4TnBJhw+sWFjJpBc81j8Ywul8oHU/XuZ+JrbduQOa2U0lnoZZcshFskKlCnJZvsC7UftCdB4rGQNcOfCQ4dwjzfzdB6tPvd9hyn/ce9/xl++UV0ntC7xsqI1Ak7ORjfN+w35LZnhXa9xmfcxOEo0eas6WODUfcy3O01Ha00xICP4mc/5GlFQH6fqIy/gotXCfuLIMcTNu0Ig==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => '8caa449e40938c79212d6d9364a64c5jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 08:32:13',
+  'notify_time' => '2018-06-15 08:32:14',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290226938289',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200434009',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.069004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.002000s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T15:18:17+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] d1136f40.ngrok.io/index/index/pay [运行时间：3.267187s][吞吐率：0.31req/s] [内存消耗：2,463.67kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'd1136f40.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.021002s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T15:21:14+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] d1136f40.ngrok.io/index/index/pay [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：2,463.65kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'd1136f40.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T15:23:00+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] d1136f40.ngrok.io/notify/ali [运行时间：8.297475s][吞吐率：0.12req/s] [内存消耗：3,612.10kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'd1136f40.ngrok.io',
+  'content-length' => '1184',
+  'x-forwarded-for' => '121.0.27.148',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 15:19:21',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'GnUqvcg4pJ1rg4GkTCxToUivhRCapzoRijdmgapMAutgLJ1zir0FJPNCZuKZfFW4Max2jmf3XrWBGgQ+Nr5J1U7yDfpMYVvbl9KRIMY1pPCD2EbMV/tFPJpaUEsABW4ZTx31L6ikhaRnibf75Ac30KRQ9lw3CZvts8Zhz01D6kFKlZKCGXcDbnRCKtR2NlpV5RFgNKFIs+bVLjAUBB/gRVCeDGnv2mw9jx0wyjErvcRi+VyAHkVBVFvGoqw0mFtMB/ERCGCddzG28QfNc/cLZD0DRxg3adwx2VrExNI3r22RhWKhS8wMSAqKEPHhASXMYBYtzOc2aUrhcSQ4IBuMIw==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => 'dc0e5ae06929aafee2a1862fe40b100jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 15:19:35',
+  'notify_time' => '2018-06-15 15:23:11',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290470969704',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200436608',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:2.653152s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:1.976113s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:1.207069s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.083004s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T15:23:00+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] d1136f40.ngrok.io/notify/ali [运行时间：8.052460s][吞吐率：0.12req/s] [内存消耗：3,611.98kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'd1136f40.ngrok.io',
+  'content-length' => '1204',
+  'x-forwarded-for' => '140.205.118.25',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 15:19:21',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'jl8HPz1XcXuyMklI5tTanZWdVV/Af97N5b4ygQWzHxst1+C+SDvbLGLV/YPWEQfbraZOR/FC5ldsSj8j9km6vvE5FNGIpympH0CxCqr3oapD06kMmhVyIzqqWTozyjWR0LK0DtqB7prfAl//pW2PdEbPntXOs6Ew952XUdQCVQiVvQ3Tt5XDGutcWoOaQZsn+yR4w9hv0PVH82pjVA3cN5OTJRngR5RtrQgW++j8+x33VqZ3A3235xPbtQoS7lK03RNIEnp80je8UJpmeWnWHGllvKO5kqFrEe+mRLY+Z8ow5TWbQ/Rf2oYihX4uMautSF8i5++SInOEj0Q+6qvUoA==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => 'dc0e5ae06929aafee2a1862fe40b100jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 15:19:35',
+  'notify_time' => '2018-06-15 15:23:12',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290470969704',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200436608',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002001s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:2.652152s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:1.975113s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:1.265072s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.029001s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T15:23:19+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] d1136f40.ngrok.io/index/index/pay [运行时间：0.293017s][吞吐率：3.41req/s] [内存消耗：2,463.65kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'd1136f40.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-15T15:23:36+08:00 ] ::1 ::1 POST /notify/ali
+[ info ] d1136f40.ngrok.io/notify/ali [运行时间：0.352020s][吞吐率：2.84req/s] [内存消耗：3,612.03kb] [文件加载：90]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'notify',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/4.0',
+  'host' => 'd1136f40.ngrok.io',
+  'content-length' => '1198',
+  'x-forwarded-for' => '121.0.27.145',
+)
+[ info ] [ PARAM ] array (
+  'gmt_create' => '2018-06-15 15:23:45',
+  'charset' => 'UTF-8',
+  'subject' => '测试支付宝电脑网站支付（即时到账）',
+  'sign' => 'j11nNvvqifEFZd25IEjz7cyG44R1fa+ln6yAH+jrFva+1HMRt4T+TD4Y5dwBb5SUWQCq6T8slXy/pyqt5LBsZrtYjb77Qh7QA0ZAA4F6x1FW4ufciLo8TzKFGmEQDp+2S9+MrqEzHkl6Qj8gWv/HEHYuHy6NcXKf9GHkdVQKU/UH2Cq6bH5zdsRs/DbjLyou43Y8EYYbL28YQbp0iaO3qJwyc5oTNzX37sDNub83MEGFdikcmOWJL5a4J78njUjjKB3JKjLNTK5E13dm/6aW0+4xNOl9mN7xyBhYEUCloLbiz5yLiRC95RhIu2YlAdoSxdHk/9Mh0hw+OMQ4RSmNHA==',
+  'buyer_id' => '2088102176184453',
+  'body' => 'ali web pay',
+  'invoice_amount' => '0.01',
+  'notify_id' => '30819fec28172dc44fa206444ec1887jh2',
+  'fund_bill_list' => '[{"amount":"0.01","fundChannel":"ALIPAYACCOUNT"}]',
+  'notify_type' => 'trade_status_sync',
+  'trade_status' => 'TRADE_SUCCESS',
+  'receipt_amount' => '0.01',
+  'app_id' => '2016091400512362',
+  'buyer_pay_amount' => '0.01',
+  'sign_type' => 'RSA2',
+  'seller_id' => '2088102175650881',
+  'gmt_payment' => '2018-06-15 15:23:53',
+  'notify_time' => '2018-06-15 15:23:55',
+  'passback_params' => '123123',
+  'version' => '1.0',
+  'out_trade_no' => '15290473993930',
+  'total_amount' => '0.01',
+  'trade_no' => '2018061521001004450200434024',
+  'auth_app_id' => '2016091400512362',
+  'point_amount' => '0.00',
+  'from' => 'ali',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\index\controller\Index->notify[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ from ] ali
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 128 [ RunTime:0.147009s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.002000s ]
+[ 测试结果 ] success
+---------------------------------------------------------------
+[ 2018-06-15T15:25:02+08:00 ] ::1 ::1 GET /index/index/pay
+[ info ] d1136f40.ngrok.io/index/index/pay [运行时间：0.165010s][吞吐率：6.06req/s] [内存消耗：2,463.64kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'd1136f40.ngrok.io',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.3',
+  'x-forwarded-for' => '221.234.161.11',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\index\controller\Index->pay[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

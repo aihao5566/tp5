@@ -1,0 +1,4 @@
+[ 2018-08-31T15:51:59+08:00 ][ error ] [64]main(): Failed opening required 'D:\www\tp5/vendor/taskphp/taskphp/src/taskphp/base.php' (include_path='.;C:\php\pear')[D:\www\tp5\application\index\command\Taskphp.php:11]
+[ info ] [ LOG ] INIT File
+[ 2018-08-31T16:01:11+08:00 ][ error ] [1]Class 'taskphp\Config' not found[D:\www\tp5\application\index\command\Taskphp.php:44]
+[ info ] [ LOG ] INIT File

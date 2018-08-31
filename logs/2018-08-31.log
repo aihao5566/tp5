@@ -1,0 +1,47 @@
+[2018-08-31 13:32:41.22990800][DEBUG]:worker_listen daemon pid:6860 Start
+[2018-08-31 13:32:41.29591100][DEBUG]:worker_listen daemon pid:6860 Stop
+[2018-08-31 13:33:10.82560000][DEBUG]:distribute_listen daemon pid:7748 Start
+[2018-08-31 13:33:11.61264500][DEBUG]:worker_listen daemon pid:5656 Start
+[2018-08-31 13:33:12.32368600][DEBUG]:taskPHP daemon pid:7564 Stop
+[2018-08-31 13:33:16.76794000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:16.77094100][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:16.81294300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.005001s]
+[2018-08-31 13:33:22.04524200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:22.04624200][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:22.04624200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-08-31 13:33:27.23353900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:27.23353900][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:27.23453900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-08-31 13:33:32.40083400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:32.40183500][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:32.40283500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-08-31 13:33:37.53312800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:37.53412800][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:37.53512800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-08-31 13:33:42.66742200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:42.66742200][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:42.66842200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-08-31 13:33:48.82377400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:48.82377400][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:48.82477400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-08-31 13:33:53.98906900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:53.99006900][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:53.99106900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-08-31 13:33:59.14436400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:33:59.14536400][DEBUG]:demo1任务运行成功
+[2018-08-31 13:33:59.14636400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-08-31 13:34:04.32166000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:34:04.32266000][DEBUG]:demo1任务运行成功
+[2018-08-31 13:34:04.32266000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-08-31 13:34:09.46695500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:34:09.46695500][DEBUG]:demo1任务运行成功
+[2018-08-31 13:34:09.46795500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-08-31 13:34:14.64425100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 13:34:14.64525100][DEBUG]:demo1任务运行成功
+[2018-08-31 13:34:14.64625100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-08-31 15:48:22.17507800][DEBUG]:distribute_listen daemon pid:7532 Start
+[2018-08-31 15:48:22.93312100][DEBUG]:worker_listen daemon pid:916 Start
+[2018-08-31 15:48:23.54015600][DEBUG]:taskPHP daemon pid:7780 Stop
+[2018-08-31 15:48:27.23136700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-08-31 15:48:27.23536700][DEBUG]:demo1任务运行成功
+[2018-08-31 15:48:27.26936900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.006000s]

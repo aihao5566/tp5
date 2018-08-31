@@ -1,0 +1,265 @@
+---------------------------------------------------------------
+[ 2018-08-15T01:44:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ info ] tp5.com/index/index/index [运行时间：2.599149s][吞吐率：0.38req/s] [内存消耗：3,790.38kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|1; think_remember_me=11111111; PHPSESSID=dg4toisgsnvkc079lr52v07en3; thinkphp_show_page_trace=1|1; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.040002s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039002s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.186011s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,3 [ RunTime:0.010001s ]
+---------------------------------------------------------------
+[ 2018-08-15T01:44:51+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] tp5.com/captcha.html [运行时间：0.511029s][吞吐率：1.96req/s] [内存消耗：1,976.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/index/index',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_remember_me=11111111; PHPSESSID=dg4toisgsnvkc079lr52v07en3; thinkphp_show_page_trace=1|1; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\www\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-15T01:44:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/chart.html
+[ info ] tp5.com/index/index/chart.html [运行时间：0.559032s][吞吐率：1.79req/s] [内存消耗：3,523.26kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'chart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://tp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'referer' => 'http://tp5.com/index/index/index',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=1|1; think_remember_me=11111111; PHPSESSID=dg4toisgsnvkc079lr52v07en3; thinkphp_show_page_trace=1|1; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.004000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->chart[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_daily_set` [ RunTime:0.128007s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_daily_set` WHERE  `date` <= 1534268692 ORDER BY id asc [ RunTime:0.010000s ]
+---------------------------------------------------------------
+[ 2018-08-15T01:45:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/see/id/131.html
+[ info ] tp5.com/index/index/see/id/131.html [运行时间：0.653037s][吞吐率：1.53req/s] [内存消耗：3,641.79kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'see',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/index/index',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '___rl__test__cookies=1534194756808; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=1|1; think_remember_me=11111111; PHPSESSID=dg4toisgsnvkc079lr52v07en3; thinkphp_show_page_trace=1|1; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => '131',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->see[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\edit-see.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035002s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 131 [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `id` = 131 LIMIT 1 [ RunTime:0.007001s ]
+---------------------------------------------------------------
+[ 2018-08-15T01:45:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/see/id/131.html
+[ info ] tp5.com/index/index/see/id/131.html [运行时间：0.821046s][吞吐率：1.22req/s] [内存消耗：3,641.79kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'see',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/index/index',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '___rl__test__cookies=1534194756808; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=1|1; think_remember_me=11111111; PHPSESSID=dg4toisgsnvkc079lr52v07en3; thinkphp_show_page_trace=1|1; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => '131',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->see[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\edit-see.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.063003s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 131 [ RunTime:0.055003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `id` = 131 LIMIT 1 [ RunTime:0.009000s ]
+---------------------------------------------------------------
+[ 2018-08-15T13:19:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/see/id/131.html
+[ info ] tp5.com/index/index/see/id/131.html [运行时间：22.726300s][吞吐率：0.04req/s] [内存消耗：3,636.87kb] [文件加载：84]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'see',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5.com/index/index/index',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_remember_me=11111111; OUTFOX_SEARCH_USER_ID_NCOO=355509674.6871818',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => '131',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.085005s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->see[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\edit-see.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.557147s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:4.696268s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `score`=score+1  WHERE  `id` = 131 [ RunTime:2.035117s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` LIMIT 1 [ RunTime:0.076004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `id` = 131 LIMIT 1 [ RunTime:0.082005s ]

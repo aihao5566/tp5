@@ -1,0 +1,1609 @@
+---------------------------------------------------------------
+[ 2018-06-28T15:43:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：3.233185s][吞吐率：0.31req/s] [内存消耗：2,419.81kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_remember_me=111111111',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.055003s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T15:43:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：2,420.14kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T15:44:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.413024s][吞吐率：2.42req/s] [内存消耗：2,496.63kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '112',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '111111',
+  'name' => '11111',
+  'password' => '111111',
+  'repassword' => '',
+  'status' => '',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T15:45:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.150008s][吞吐率：6.67req/s] [内存消耗：2,496.52kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '112',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '111111',
+  'name' => '11111',
+  'password' => '111111',
+  'repassword' => '',
+  'status' => '',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T15:45:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：2,419.44kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T15:46:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：2,496.66kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '111',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '111111',
+  'name' => '111111',
+  'password' => '111',
+  'repassword' => '',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T15:57:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：2,420.06kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T15:57:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,340.86kb] [文件加载：71]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '106',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:14:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.464026s][吞吐率：2.16req/s] [内存消耗：3,606.43kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '106',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->setError[D:\www\tp5\thinkphp\library\think\db\Query.php:93]
+---------------------------------------------------------------
+[ 2018-06-28T16:16:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.167010s][吞吐率：5.99req/s] [内存消耗：2,496.05kb] [文件加载：80]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '106',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\index\validate\BaseValidate::setError(), called in D:\www\tp5\application\index\controller\Index.php on line 147 and defined[D:\www\tp5\application\index\validate\BaseValidate.php:22]
+---------------------------------------------------------------
+[ 2018-06-28T16:25:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.170010s][吞吐率：5.88req/s] [内存消耗：2,499.51kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '106',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T16:26:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,419.46kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:26:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.167009s][吞吐率：5.99req/s] [内存消耗：2,499.57kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '112',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '1111111111',
+  'password' => '111',
+  'repassword' => '111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T16:27:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：2,343.55kb] [文件加载：71]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '112',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '1111111111',
+  'password' => '111',
+  'repassword' => '111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:27:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：2,420.03kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:27:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.118006s][吞吐率：8.47req/s] [内存消耗：2,343.57kb] [文件加载：71]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '111',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '11111111111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:28:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：2,420.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:28:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：2,343.67kb] [文件加载：71]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '109',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '11111',
+  'password' => '1111',
+  'repassword' => '1111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:28:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：2,420.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:29:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：2,420.14kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:29:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.135007s][吞吐率：7.41req/s] [内存消耗：2,499.55kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '107',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111',
+  'password' => '1111',
+  'repassword' => '1111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T16:29:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,420.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:29:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.100005s][吞吐率：10.00req/s] [内存消耗：2,343.61kb] [文件加载：71]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '103',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:30:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,419.80kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:30:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,419.87kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:30:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.151008s][吞吐率：6.62req/s] [内存消耗：2,499.38kb] [文件加载：81]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '109',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '111111',
+  'name' => '111',
+  'password' => '11',
+  'repassword' => '11',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]strip_tags() expects parameter 1 to be string, array given[D:\www\tp5\runtime\temp\99877c3becac865a71d400bdc5e388e6.php:25]
+---------------------------------------------------------------
+[ 2018-06-28T16:31:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.116006s][吞吐率：8.62req/s] [内存消耗：2,419.80kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:31:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：5.304303s][吞吐率：0.19req/s] [内存消耗：3,783.38kb] [文件加载：89]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '114',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '111111',
+  'name' => '111111',
+  'password' => '111',
+  'repassword' => '111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:2.171124s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:1.676096s ]
+[ sql ] [ SQL ] INSERT INTO `tp_user` (`name` , `password` , `status` , `address` , `email` , `birthday` , `age` , `score` , `info` , `ip` , `create_time` , `update_time`) VALUES ('111111' , '111' , 1 , '' , '' , '' , 0 , 50 , '{\"a\":1,\"b\":2}' , '127.0.0.1' , 1530174704 , 1530174704) [ RunTime:0.229013s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_daily_set` [ RunTime:0.091005s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_daily_set` WHERE  `date` >= 1530115200 LIMIT 1 [ RunTime:0.101006s ]
+[ sql ] [ SQL ] INSERT INTO `tp_daily_set` (`date` , `add_count` , `create_time` , `update_time`) VALUES (1530115200 , 1 , 1530174705 , 1530174705) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `tp_user`  SET `login_time`=now(),`login_times`=login_times+1  WHERE  `id` = 137 [ RunTime:0.172010s ]
+---------------------------------------------------------------
+[ 2018-06-28T16:31:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] tp5.com/index/index/index.html [运行时间：0.780045s][吞吐率：1.28req/s] [内存消耗：3,791.30kb] [文件加载：86]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\index.html [ array (
+  0 => 'list',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:dbname=tp5ceshi;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.183010s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `status` = 1 ORDER BY id desc LIMIT 0,3 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-06-28T16:31:51+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ info ] tp5.com/captcha.html [运行时间：0.556032s][吞吐率：1.80req/s] [内存消耗：1,980.82kb] [文件加载：56]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/index.html',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\www\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:37:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：2,420.25kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:37:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：2,420.59kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:38:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.129007s][吞吐率：7.75req/s] [内存消耗：2,464.36kb] [文件加载：78]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'content-length' => '105',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cache-control' => 'max-age=0',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'origin' => 'http://tp5.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://tp5.com/index/index/add',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => '',
+  'name' => '111',
+  'password' => '111',
+  'repassword' => '111',
+  'status' => '1',
+  'address' => '',
+  'email' => '',
+  'birthday' => '',
+  'age' => '',
+  'score' => '',
+  'pickup_name' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-28T16:38:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/add
+[ info ] tp5.com/index/index/add [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：2,420.26kb] [文件加载：75]
+[ info ] [ LANG ] D:\www\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; think_remember_me=111111111; PHPSESSID=uadoov891qql5a59usrt73eni4',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'x-lantern-version' => '4.7.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\index\behavior\Test @module_init [ RunTime:0.000000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->add[ D:\www\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\www\tp5\public/../application/index\view\index\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

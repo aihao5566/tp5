@@ -1,0 +1,2015 @@
+[2018-06-16 14:30:57.15281600][DEBUG]:distribute_listen daemon pid:7296 Start
+[2018-06-16 14:30:58.35788500][DEBUG]:worker_listen daemon pid:7152 Start
+[2018-06-16 14:31:02.57012600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:31:02.57212600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:31:02.57312600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.004001s]
+[2018-06-16 14:31:08.72447800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:31:08.72447800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:31:08.72547800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:36:55.04428600][DEBUG]:distribute_listen daemon pid:8176 Start
+[2018-06-16 14:36:55.89433500][DEBUG]:worker_listen daemon pid:3700 Start
+[2018-06-16 14:37:00.18258000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:00.18858000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:00.18858000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.007000s]
+[2018-06-16 14:37:05.42488000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:05.42488000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:05.42488000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:37:10.88119200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:10.88219200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:10.88219200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:16.30450200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:16.30450200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:16.30550200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:22.54485900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:22.54585900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:22.54585900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:27.77215800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:27.77215800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:27.77315800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:37:33.01745800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:33.01845800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:33.01845800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:38.32676200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:38.32776200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:38.32776200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:43.89308000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:43.89408000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:43.89408000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:37:49.35939300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:49.35939300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:49.36039300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:37:54.98171400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:37:54.98171400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:37:54.98171400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:00.39502400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:00.39602400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:00.39602400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:06.68038300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:06.68038300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:06.68138300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:12.04369000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:12.04469000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:12.04469000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:17.46700000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:17.46800000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:17.46800000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:22.87130900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:22.87130900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:22.87230900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:38:28.09260800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:28.09360800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:28.09460800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:34.32396400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:34.32396400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:34.32496400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:38:39.58226500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:39.58226500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:39.58226500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:38:44.84856600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:44.84956600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:44.85056600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:38:50.32688000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:50.32688000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:50.32788000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:38:55.74819000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:38:55.74819000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:38:55.74919000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:39:01.97954600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:01.98054600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:01.98154600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:07.20684500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:07.20684500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:07.20784500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:39:12.46014600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:12.46114600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:12.46114600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:17.79145100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:17.79145100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:17.79245100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:23.47977600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:23.48077600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:23.48077600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:28.89608600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:28.89708600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:28.89708600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:34.43040200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:34.43040200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:34.43140200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:39:39.91271600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:39.91271600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:39.91371600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:39:45.38202900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:45.38202900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:45.38302900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:39:50.87034300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:50.87034300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:50.87134300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:39:56.35965700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:39:56.35965700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:39:56.36065700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:40:01.78096700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:01.78196700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:01.78196700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:40:07.26728000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:07.26728000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:07.26728000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:12.72359300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:12.72359300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:12.72359300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:40:18.29191100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:18.29291100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:18.29291100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:23.70322100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:23.70322100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:23.70422100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:40:29.29154000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:29.29254000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:29.29354000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:34.81085600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:34.81085600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:34.81185600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:40.20416400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:40.20516400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:40.20616400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:45.62547400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:45.62547400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:45.62747500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:40:51.32480000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:51.32480000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:51.32580000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:40:56.78111200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:40:56.78111200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:40:56.78211300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:41:02.36943200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:02.37043200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:02.37043200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:07.78074200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:07.78074200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:07.78174200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:13.37006100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:13.37006100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:13.37106100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:18.93638000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:18.93738000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:18.93738000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:24.36969000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:24.37069000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:24.37069000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:29.83400300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:29.83500300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:29.83500300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:35.43632300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:35.43732300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:35.43732300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:40.90263600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:40.90363600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:40.90363600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:46.40395100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:46.40395100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:46.40495100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:52.63030700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:52.63130700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:52.63230700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:41:57.88060700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:41:57.88160700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:41:57.88160700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:03.13490800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:03.13490800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:03.13490800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:08.40320900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:08.40420900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:08.40420900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:13.88152200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:13.88252200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:13.88252200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:19.31683300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:19.31683300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:19.31783300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:42:24.85815000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:24.85915000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:24.85915000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:30.33646400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:30.33646400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:30.33746400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:42:35.81377700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:35.81477700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:35.81577700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:42.07913500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:42.07913500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:42.08013500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:42:47.29243300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:47.29343300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:47.29343300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:42:52.51473200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:52.51473200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:52.51573200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:42:57.72503000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:42:57.72603000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:42:57.72703000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:43:03.94538600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:03.94538600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:03.94638600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:43:09.16068400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:09.16068400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:09.16168400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:14.36998200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:14.37098200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:14.37098200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:19.78229200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:19.78329200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:19.78329200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:25.14659800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:25.14859900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:25.14859900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:43:30.64791300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:30.64791300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:30.64891300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:43:36.11422600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:36.11422600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:36.11522600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:42.33358200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:42.33458200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:42.33558200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:47.58388200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:47.58388200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:47.58488200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:52.84718300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:52.84818300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:52.84818300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:43:58.16948700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:43:58.16948700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:43:58.17048700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:03.63580000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:03.63580000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:03.63680000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:09.91215900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:09.91315900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:09.91315900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:15.14045800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:15.14045800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:15.14145800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:44:20.35875600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:20.35975600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:20.35975600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:25.65806000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:25.65906000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:25.65906000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:31.98942200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:31.99042200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:31.99142200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:37.23672200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:37.23672200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:37.23772200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:44:42.45802000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:42.45802000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:42.45902000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:44:47.67231900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:47.67231900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:47.67331900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:44:53.27763900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:53.27763900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:53.27763900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:44:58.76995300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:44:58.77095300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:44:58.77095300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:04.34827200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:04.34927300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:04.34927300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:45:09.81358500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:09.81358500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:09.81458500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:45:15.41290500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:15.41290500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:15.41390500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:20.88321800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:20.88421800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:20.88521800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:26.35853100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:26.35853100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:26.35953100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:32.58988800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:32.58988800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:32.59088800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:45:37.80818600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:37.80818600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:37.80918600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:43.02548500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:43.02648500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:43.02648500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:48.40279200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:48.40279200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:48.40379200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:45:53.91110700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:53.91210700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:53.91210700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:45:59.48042600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:45:59.48142600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:45:59.48242600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:05.01374200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:05.01474200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:05.01474200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:10.48105500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:10.48205500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:10.48205500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:15.97036900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:15.97036900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:15.97136900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:46:21.44668200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:21.44768200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:21.44768200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:26.95899800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:26.95899800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:26.95999800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:46:32.39030800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:32.39030800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:32.39130800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:37.99062900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:37.99162900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:37.99162900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:43.34393500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:43.34493500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:43.34493500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:48.94725500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:48.94825500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:48.94925500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:54.35656500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:54.35756500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:54.35756500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:46:59.84687900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:46:59.84687900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:46:59.84787900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:05.38019500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:05.38019500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:05.38119500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:47:10.93451300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:10.93451300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:10.93551300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:16.33582200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:16.33682200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:16.33682200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:21.81413500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:21.81513500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:21.81513500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:28.08949400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:28.08949400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:28.09049400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:47:33.32279300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:33.32279300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:33.32379300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:47:38.54709200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:38.54809200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:38.54909200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:43.92540000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:43.92540000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:43.92640000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:47:49.36271100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:49.36271100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:49.36371100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:47:55.60106800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:47:55.60106800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:47:55.60206800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:00.88037000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:00.88037000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:00.88137000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:48:06.14767100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:06.14767100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:06.14867100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:11.38097000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:11.38197000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:11.38197000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:16.86828400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:16.86928400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:16.86928400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:48:22.35859800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:22.35859800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:22.35959800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:48:27.82491100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:27.82591100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:27.82591100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:33.44623200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:33.44723200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:33.44823200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:38.85754200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:38.85854200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:38.85854200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:45.07889800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:45.07889800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:45.07989800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:48:50.29119600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:50.29219600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:50.29219600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:48:55.50349400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:48:55.50449400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:48:55.50549400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:00.85280000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:00.85380000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:00.85380000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:06.31411200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:06.31511200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:06.31611200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:12.54446800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:12.54546900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:12.54646900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:49:17.76876700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:17.76976700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:17.76976700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:22.98306600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:22.98306600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:22.98406600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:49:28.39137500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:28.39237500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:28.39237500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:33.92469100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:33.92569100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:33.92569100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:39.44700700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:39.44800700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:39.44800700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:49:45.01432600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:45.01432600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:45.01532600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:50.43663600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:50.43663600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:50.43763600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:49:56.68899300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:49:56.68999300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:49:56.68999300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:01.91429200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:01.91529200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:01.91529200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:07.12459000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:07.12559000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:07.12659000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:12.57090200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:12.57090200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:12.57190200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:50:18.14522100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:18.14522100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:18.14622100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:50:23.62453400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:23.62553400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:23.62653400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:29.17985200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:29.18085200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:29.18185200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:34.61416300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:34.61516300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:34.61516300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:40.86652000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:40.86752000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:40.86752000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:46.10282000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:46.10382000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:46.10382000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:51.33611900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:51.33711900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:51.33811900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:50:56.66942400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:50:56.66942400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:50:56.67042400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:51:02.15673800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:02.15773800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:02.15873800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:07.68005400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:07.68105400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:07.68205400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:13.25837300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:13.25937300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:13.26037300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:18.67968300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:18.68068300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:18.68068300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:24.14599600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:24.14699600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:24.14699600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:29.76931700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:29.77031700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:29.77031700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:35.12462400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:35.12562400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:35.12662400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:41.34597900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:41.34597900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:41.34698000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:51:46.55827800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:46.55927800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:46.56027800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:51.76457500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:51.76557500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:51.76557500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:51:57.23588800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:51:57.23588800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:51:57.23688800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:02.73620300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:02.73620300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:02.73720300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:52:08.18051400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:08.18151400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:08.18151400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:14.40187000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:14.40287000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:14.40287000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:19.61316800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:19.61316800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:19.61416800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:52:24.82546600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:24.82546600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:24.82646600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:30.17877300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:30.17977300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:30.18077300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:35.70308900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:35.70308900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:35.70408900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:52:41.16940100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:41.17040100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:41.17040100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:52:46.74872000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:46.74872000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:46.74972000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:52:52.98907700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:52.98907700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:52.99007700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:52:58.21337600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:52:58.21337600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:52:58.21437600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:03.43667500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:03.43767500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:03.43867500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:13.51625100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:13.51725100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:13.51725100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:18.75555100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:18.75655100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:18.75655100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:24.00185100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:24.00285100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:24.00385100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:29.22415000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:29.22515000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:29.22615000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:34.69946300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:34.70046300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:34.70046300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:40.31278400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:40.31378400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:40.31378400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:45.73609400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:45.73709400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:45.73809400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:53:51.98945200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:51.98945200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:51.99045200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:53:57.31375600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:53:57.31475600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:53:57.31475600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:02.52705500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:02.52805500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:02.52805500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:07.73635300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:07.73635300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:07.73735300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:54:13.21266600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:13.21366600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:13.21466600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:19.48802500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:19.48802500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:19.48902500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:54:24.16929200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:24.17029200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:24.17029200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:29.59060200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:29.59060200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:29.59160300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:54:35.23592500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:35.23692500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:35.23692500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:40.96025300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:40.96125300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:40.96225300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:47.21061000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:47.21161000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:47.21261000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:54:52.42590900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:52.42590900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:52.42690900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:54:57.63620700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:54:57.63620700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:54:57.63720700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:55:02.95751100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:02.95851100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:02.95951100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:08.43682400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:08.43782400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:08.43882400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:14.65618000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:14.65718000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:14.65718000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:19.88047900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:19.88047900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:19.88147900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:55:25.09077700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:25.09177700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:25.09177700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:30.41308100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:30.42308200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:30.42408200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.011001s]
+[2018-06-16 14:55:36.66743900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:36.66843900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:36.66843900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:41.90273900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:41.90273900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:41.90373900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 14:55:47.12503700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:47.12503700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:47.12603700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:52.48834400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:52.48834400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:52.48834400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:55:58.07966400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:55:58.08066400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:55:58.08066400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:03.57597800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:03.57597800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:03.57697800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:09.85533700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:09.85633700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:09.85633700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:15.09063700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:15.09163700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:15.09163700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:20.31493600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:20.31493600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:20.31593600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:25.60223800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:25.60223800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:25.60323800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:56:31.19155800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:31.19255800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:31.19255800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:36.67187100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:36.67287100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:36.67387100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:42.92222900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:42.92222900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:42.92322900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:56:48.16952900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:48.17052900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:48.17052900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:56:53.38282700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:53.38282700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:53.38382700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:56:58.68013000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:56:58.68013000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:56:58.68113000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:04.14444200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:04.14444200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:04.14544300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 14:57:09.61375500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:09.61475500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:09.61475500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:15.15607200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:15.15707200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:15.15707200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:20.72039100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:20.72139100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:20.72239100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:26.13570000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:26.13670000][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:26.13770000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:31.60901300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:31.60901300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:31.61001300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:57:37.20233300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:37.20233300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:37.20333300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:42.62464300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:42.62564300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:42.62564300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:48.20296200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:48.20396300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:48.20496300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:57:53.61227200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:53.61327200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:53.61427200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:57:59.27059600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:57:59.27159600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:57:59.27159600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:04.68990500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:04.69090600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:04.69190600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 14:58:10.98826600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:10.98926600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:10.99026600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:16.22456500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:16.22456500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:16.22556500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:58:21.44686400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:21.44686400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:21.44786400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:58:26.84617300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:26.84717300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:26.84717300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:32.42449200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:32.42549200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:32.42549200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:37.91280600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:37.91280600][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:37.91380600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:43.36811800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:43.36911800][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:43.36911800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:49.59947400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:49.59947400][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:49.60047400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:58:54.90077700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:58:54.90177700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:58:54.90177700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:00.14607700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:00.14607700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:00.14707700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:59:05.38937700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:05.39037700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:05.39037700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:11.19170900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:11.19170900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:11.19270900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:59:16.47301100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:16.47401100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:16.47501100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:22.09133300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:22.09233300][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:22.09233300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:27.59064700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:27.59064700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:27.59164700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 14:59:33.07896100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:33.07996100][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:33.07996100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:38.57127500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:38.57227500][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:38.57327500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:44.05758900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:44.05858900][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:44.05958900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:49.52390200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:49.52490200][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:49.52490200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 14:59:55.74425700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 14:59:55.74425700][DEBUG]:demo1任务运行成功
+[2018-06-16 14:59:55.74525700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:00:00.95755600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:00.95855600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:00.95855600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:06.16785400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:06.16885400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:06.16885400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:11.48015700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:11.48115800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:11.48115800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:00:17.72151400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:17.72251500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:17.72351500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:00:22.93281300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:22.93281300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:22.93381300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:00:28.14911100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:28.15011100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:28.15011100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:33.46841500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:33.46941500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:33.47041500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:39.04573400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:39.04673400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:39.04773400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:44.68005600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:44.68105600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:44.68205700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:50.09036600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:50.09136600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:50.09236600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:00:56.34272300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:00:56.34372400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:00:56.34372400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:01:01.55702200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:01.55802200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:01.55802200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:06.82632300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:06.82732300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:06.82732300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:12.06862300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:12.06962300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:12.06962300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:18.31098000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:18.31198000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:18.31198000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:23.53427900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:23.53427900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:23.53527900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:01:28.76857800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:28.76957800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:28.77057800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:34.15688600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:34.15788600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:34.15788600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:39.64620000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:39.64720000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:39.64720000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:01:45.89955800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:45.89955800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:45.90055800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:01:51.22686300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:51.22686300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:51.22786300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:01:56.51316500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:01:56.51416500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:01:56.51516500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:02:01.83346900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:01.83446900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:01.83546900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:07.44579000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:07.44679000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:07.44779000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:12.92310400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:12.92410400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:12.92510400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:19.18846200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:19.18846200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:19.19046200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:02:24.40076000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:24.40176000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:24.40276000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:29.62105900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:29.62105900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:29.62205900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:02:34.89036000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:34.89136000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:34.89236000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:40.31267000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:40.31367000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:40.31367000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:45.84298700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:45.84298700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:45.84398700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:02:52.12134600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:52.12234600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:52.12234600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:02:57.34664400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:02:57.34664400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:02:57.34764500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:03:02.55794300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:02.55794300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:02.55894300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:07.85724600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:07.85824600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:07.85824600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:14.13260500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:14.13360500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:14.13360500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:19.39090500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:19.39090500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:19.39190500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:03:24.64620600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:24.64620600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:24.64720600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:03:29.90150700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:29.90250700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:29.90250700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:35.50182700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:35.50282700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:35.50282700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:40.95813900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:40.95813900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:40.95913900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:03:46.44545300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:46.44645300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:46.44745300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:52.73281200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:52.73381200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:52.73381200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:03:57.97011200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:03:57.97011200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:03:57.97111200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:04:03.17941000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:03.18041000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:03.18141000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:08.54671700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:08.54771700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:08.54771700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:14.84407700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:14.84407700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:14.84507700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:04:20.09037700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:20.09137700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:20.09137700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:25.32367600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:25.32367600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:25.32467700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:04:30.65698200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:30.65698200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:30.65798200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:04:36.87633700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:36.87733700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:36.87833700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:42.12463700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:42.12563700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:42.12663800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:47.34593600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:47.34693600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:47.34793600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:52.72324400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:52.72424400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:52.72424400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:04:58.30156300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:04:58.30256300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:04:58.30256300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:03.79187700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:03.79187700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:03.79287700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:05:10.09023700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:10.09123700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:10.09123700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:16.34359500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:16.34459500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:16.34459500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:05:21.58089400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:21.58089400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:21.58189400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:26.86819700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:26.86919700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:26.86919700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:32.10149600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:32.10249600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:32.10249600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:37.74581900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:37.74681900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:37.74681900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:43.18013000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:43.18113000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:43.18113000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:49.43548700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:49.43648700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:49.43648700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:05:54.64478500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:54.64578500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:54.64578500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:05:59.85708300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:05:59.85708300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:05:59.85808400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:06:05.22139000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:05.22139000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:05.22139000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:06:10.70070400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:10.70170400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:10.70170400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:06:16.93206000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:16.93306000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:16.93306000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:06:22.14635800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:22.14635800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:22.14735800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:06:27.35665600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:27.35665600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:27.35765600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:06:32.74296400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:32.74296400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:32.74396500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:06:38.25628000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:38.25728000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:38.25828000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:06:43.66858900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:43.66858900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:43.66958900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:06:49.23390800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:49.23390800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:49.23490800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:06:54.75922400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:06:54.76022400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:06:54.76022400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:00.22353600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:00.22453600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:00.22453600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:05.64384600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:05.64484600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:05.64484600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:11.86520200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:11.86620200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:11.86620200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:17.09050100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:17.09150100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:17.09150100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:22.31480000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:22.31480000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:22.31580000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:07:27.69010700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:27.69110700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:27.69110700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:33.95446600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:33.95546600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:33.95546600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:39.17876400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:39.17976400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:39.17976400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:44.40106300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:44.40206300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:44.40206300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:49.65736400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:49.65836400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:49.65836400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:07:55.89972100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:07:55.89972100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:07:55.90072100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:08:01.13402000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:01.13502000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:01.13502000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:06.36731900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:06.36832000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:06.36832000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:08:11.66762300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:11.66762300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:11.66862300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:17.88797800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:17.88897800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:17.88897800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:23.11127700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:23.11227700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:23.11227700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:28.32257500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:28.32357500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:28.32457500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:33.63387900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:33.63487900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:33.63587900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:39.86423500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:39.86523500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:39.86523500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:45.07853400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:45.07953400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:45.07953400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:50.28783200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:50.28783200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:50.28783200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:08:55.56613300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:08:55.56713400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:08:55.56713400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:09:01.80949100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:01.81049100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:01.81049100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:07.02278900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:07.02378900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:07.02478900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:12.23408700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:12.23508700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:12.23508700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:17.53439000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:17.53439000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:17.53539000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:09:22.96770100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:22.96870100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:22.96870100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:29.19805700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:29.19905700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:29.19905700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:34.41235500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:34.41235500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:34.41335500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:09:39.63365400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:39.63365400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:39.63465400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:45.06796500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:45.06896500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:45.06896500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:09:51.28732100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:51.28732100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:51.28832100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:09:56.50861900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:09:56.50961900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:09:56.50961900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:01.74291900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:01.74291900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:01.74291900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:07.12322600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:07.12422600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:07.12522600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:10:13.36658300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:13.36658300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:13.36758300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:10:18.63388500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:18.63388500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:18.63488500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:10:23.86718400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:23.86818400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:23.86918400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:29.09048300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:29.09048300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:29.09148300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:34.67880200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:34.67980200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:34.67980200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:40.15611600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:40.15711600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:40.15811600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:45.72243400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:45.72343400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:45.72343400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:10:51.13474400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:51.13574400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:51.13574400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:10:56.60105600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:10:56.60105600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:10:56.60205600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:11:02.16737500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:02.16837500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:02.16937500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:07.73369300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:07.73469300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:07.73469300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:13.99605100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:13.99605100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:13.99705100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:19.21235000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:19.21335000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:19.21335000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:24.42264800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:24.42364800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:24.42464800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:29.90096100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:29.90096100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:29.90196100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:11:35.36727400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:35.36727400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:35.36827400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:41.64263200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:41.64263200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:41.64363300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:11:46.88993300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:46.88993300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:46.89093300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:11:52.11223100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:52.11223100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:52.11323100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:11:57.40053400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:11:57.40153400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:11:57.40153400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:12:03.63189000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:03.63189000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:03.63289000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:12:08.85618900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:08.85618900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:08.85718900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:12:14.08148800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:14.08148800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:14.08248800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:19.44479500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:19.44579500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:19.44679500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:25.74215500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:25.74315500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:25.74415500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:30.97745400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:30.97845400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:30.97945400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:36.21275400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:36.21375400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:36.21375400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:41.55605900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:41.55705900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:41.55805900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:47.05437400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:47.05537400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:47.05537400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:52.47768400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:52.47868400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:52.47868400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:12:57.96699800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:12:57.96799800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:12:57.96899800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:03.40030900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:03.40130900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:03.40230900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:08.96762700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:08.96762700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:08.96862700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:13:14.42994000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:14.43094000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:14.43094000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:19.89025200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:19.89025200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:19.89125200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:13:26.17561100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:26.17661200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:26.17761200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:13:31.41391100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:31.41491100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:31.41591100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:36.62220900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:36.62320900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:36.62320900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:41.95751400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:41.95751400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:41.95851400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:13:47.46682900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:47.46782900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:47.46782900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:13:53.04414800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:53.04614800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:53.04614800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:13:58.53346200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:13:58.53346200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:13:58.53446200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:14:04.84182300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:04.84282300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:04.84382300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:10.08912300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:10.09012300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:10.09012300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:15.33342300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:15.33442300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:15.33542300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:20.70873100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:20.70873100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:20.70973100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:26.13404100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:26.13404100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:26.13504100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:14:32.36339700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:32.36439700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:32.36439700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:37.61169700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:37.61169700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:37.61269700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:14:42.84499700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:42.84499700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:42.84599700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:14:48.19130200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:48.19130200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:48.19230300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:14:53.72161900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:53.72261900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:53.72261900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:14:59.97897700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:14:59.97997700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:14:59.97997700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:05.20027500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:05.20127500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:05.20127500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:10.43557500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:10.43557500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:10.43657500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:15:15.77788000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:15.77788000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:15.77888000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:21.25519400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:21.25619400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:21.25619400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:26.72150600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:26.72250600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:26.72350600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:32.96286300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:32.96286300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:32.96286300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:15:38.17816200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:38.17816200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:38.17916200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:15:43.41146100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:43.41146100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:43.41246100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:15:48.64876000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:48.64876000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:48.64976000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:15:54.18907700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:15:54.18907700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:15:54.19007700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:16:00.49843800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:00.49943800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:00.49943800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:16:05.73373800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:05.73473800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:05.73473800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:16:10.95603600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:10.95603600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:10.95703600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:16.32034300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:16.32034300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:16.32134300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:21.78965600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:21.78965600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:21.79065600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:27.38897600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:27.38997600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:27.39097600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:32.85928900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:32.85928900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:32.86028900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:38.32160200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:38.32260200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:38.32360200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:43.82291600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:43.82291600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:43.82391600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:16:50.06527300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:50.06527300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:50.06627300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:16:55.31057300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:16:55.31157300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:16:55.31157300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:17:00.52187100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:00.52287100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:00.52287100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:05.84417600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:05.84517600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:05.84517600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:17:11.34449000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:11.34449000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:11.34549000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:17:17.60884900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:17.60984900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:17.61084900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:22.86614900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:22.86714900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:22.86714900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:28.13645100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:28.13745100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:28.13745100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:33.46675600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:33.46675600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:33.46775600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:17:39.04507500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:39.04607500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:39.04607500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:44.51038700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:44.51138700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:44.51238700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:50.08870600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:50.08970600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:50.08970600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:17:55.69102700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:17:55.69202700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:17:55.69302700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:01.15533900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:01.15533900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:01.15633900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:07.39369600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:07.39469600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:07.39469600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:12.63399600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:12.63499600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:12.63499600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:17.90029700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:17.90029700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:17.90129700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:23.16659800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:23.16759800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:23.16859800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:28.70891500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:28.70891500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:28.70991500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:34.28823400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:34.28923500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:34.29023500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:18:39.76954800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:39.76954800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:39.77054800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:18:46.01990500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:46.01990500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:46.02090600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:18:51.26620600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:51.26720600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:51.26720600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:18:56.50050500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:18:56.50050500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:18:56.50150500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:19:01.82280900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:01.82280900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:01.82380900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:19:08.17517300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:08.17517300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:08.17617300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:19:13.43247300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:13.43347300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:13.43447400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:19:18.74177700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:18.74177700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:18.74177700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:19:23.97807700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:23.97807700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:23.97907700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:19:29.49039200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:29.49039200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:29.49139200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:19:34.97770600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:34.97870600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:34.97870600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:19:41.24106400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:41.24206400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:41.24206400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:19:46.51136500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:46.51236500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:46.51236500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:19:51.75566500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:51.75666500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:51.75666500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:19:57.02096700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:19:57.02196700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:19:57.02296700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:03.29732600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:03.29832600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:03.29932600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:08.52062400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:08.52162400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:08.52162400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:13.75492400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:13.75492400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:13.75492400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:19.06722700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:19.06722700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:19.06822800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:20:24.57854300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:24.57854300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:24.57954300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:30.85290200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:30.85390200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:30.85390200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:36.11120200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:36.11220200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:36.11220200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:41.34350200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:41.34450200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:41.34550200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:46.72180900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:46.72280900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:46.72280900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:52.19912300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:52.20012300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:52.20012300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:20:58.43047900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:20:58.43147900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:20:58.43147900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:03.68277900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:03.68377900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:03.68377900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:08.92207900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:08.92307900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:08.92307900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:14.22438200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:14.22538200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:14.22638200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:19.79870100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:19.79870100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:19.79970100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:26.07506000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:26.07506000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:26.07606000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:21:31.36536300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:31.36636300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:31.36736300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:36.65466500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:36.65466500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:36.65566500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:41.87696400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:41.87796400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:41.87896400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:48.13032200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:48.13132200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:48.13132200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:21:53.35562000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:53.35562000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:53.35662100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:21:58.57691900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:21:58.57791900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:21:58.57791900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:03.88822300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:03.88922300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:03.88922300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:10.10857900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:10.10957900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:10.11057900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:15.34387800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:15.34487800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:15.34487800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:20.55417600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:20.55517600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:20.55617600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:25.85547900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:25.85647900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:25.85647900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:31.43279800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:31.43279800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:31.43379800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:22:36.84410800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:36.84410800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:36.84510800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:22:43.11546700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:43.11646700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:43.11646700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:48.33276500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:48.33376500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:48.33376500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:22:53.64406900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:53.64406900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:53.64506900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:22:58.92137100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:22:58.92137100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:22:58.92237100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:23:04.38768300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:04.38868300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:04.38968300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:10.67104300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:10.67104300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:10.67204300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:23:20.23959000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:20.23959000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:20.24059000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:25.48589000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:25.48689000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:25.48689000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:30.73219000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:30.73319000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:30.73319000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:35.99849100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:35.99949100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:35.99949100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:42.26285000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:42.26385000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:42.26485000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:47.48814800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:47.48814800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:47.48914900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:23:52.76345000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:52.76345000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:52.76445000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:23:57.99975000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:23:57.99975000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:23:58.00075000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:24:03.42106000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:03.42206000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:03.42306000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:09.03338100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:09.03338100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:09.03438100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:14.43669000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:14.43669000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:14.43769000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:24:20.03201000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:20.03301000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:20.03301000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:25.44431900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:25.44431900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:25.44532000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:31.67667600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:31.67667600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:31.67767600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:24:36.89997500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:36.89997500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:36.90097500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:24:42.11027300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:42.11027300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:42.11127300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:24:47.36857300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:47.36857300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:47.36957400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:53.61893100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:53.61993100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:53.61993100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:24:58.84423000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:24:58.84523000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:24:58.84523000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:25:04.05452800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:04.05552800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:04.05552800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:25:09.36783200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:09.36883200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:09.36883200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:25:14.85514600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:14.85514600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:14.85614600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:25:20.34646000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:20.34646000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:20.34746000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:25:25.80977200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:25.80977200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:25.81077200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:25:31.75711200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:25:31.75711200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:25:31.75811200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:26:48.88852400][DEBUG]:distribute_listen daemon pid:7652 Start
+[2018-06-16 15:26:51.59067900][DEBUG]:worker_listen daemon pid:1032 Start
+[2018-06-16 15:26:51.78869000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:26:51.79469000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:26:51.79569000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.007000s]
+[2018-06-16 15:26:55.03287500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:26:55.03287500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:26:55.03387500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:00.25217400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:00.25217400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:00.25317400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:27:05.67648400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:05.67748400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:05.67748400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:11.21080100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:11.21180100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:11.21280100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:16.72111600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:16.72111600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:16.72211600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:27:22.19742900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:22.19842900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:22.19842900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:27.76574800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:27.76574800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:27.76674800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:27:33.18805800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:33.18905800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:33.18905800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:38.75437600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:38.75537600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:38.75637600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:44.22068900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:44.22168900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:44.22268900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:50.46504600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:50.46504600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:50.46604600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:27:55.69534500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:27:55.69634500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:27:55.69634500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:00.93164500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:00.93264500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:00.93364500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:06.35495500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:06.35495500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:06.35595500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:28:11.94427500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:11.94527500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:11.94627500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:28:17.36658500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:17.36658500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:17.36758500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:28:23.59494100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:23.59494100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:23.59494100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:28.86524200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:28.86524200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:28.86624200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:28:34.15154500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:34.15154500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:34.15154500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:39.40884500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:39.40984500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:39.40984500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:45.01916600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:45.02016600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:45.02116600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:50.44147600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:50.44247600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:50.44247600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:28:56.71083500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:28:56.71183500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:28:56.71183500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:29:01.95313500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:01.95413500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:01.95413500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:07.19543500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:07.19643500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:07.19743500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:13.79681200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:13.79681200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:13.79781200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:19.16411900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:19.16511900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:19.16611900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:24.78544100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:24.78644100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:24.78744100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:30.20775100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:30.20875100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:30.20875100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:35.74206700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:35.74206700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:35.74306800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:29:41.21838100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:41.21938100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:41.21938100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:46.85370300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:46.85370300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:46.85470300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:29:52.26301200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:52.26401200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:52.26501300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:29:57.80632900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:29:57.80632900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:29:57.80632900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:30:03.45065200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:03.45065200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:03.45065200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:30:09.31698800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:09.31798800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:09.31798800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:30:14.51828500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:14.51928500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:14.52028500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:30:19.85259000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:19.85259000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:19.85359100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:30:25.32990400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:25.32990400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:25.33090400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:30:30.91922300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:30.91922300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:30.92022300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:30:36.28353000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:30:36.28453000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:30:36.28453000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:31:59.04326400][DEBUG]:distribute_listen daemon pid:4304 Start
+[2018-06-16 15:31:59.37128300][DEBUG]:distribute_listen daemon pid:4316 Start
+[2018-06-16 15:32:00.19633000][DEBUG]:worker_listen daemon pid:7404 Start
+[2018-06-16 15:32:00.76236200][DEBUG]:worker_listen daemon pid:6936 Start
+[2018-06-16 15:32:04.70658800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:32:04.71258800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:32:04.71358800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.007000s]
+[2018-06-16 15:36:48.07379500][DEBUG]:distribute_listen daemon pid:1172 Start
+[2018-06-16 15:36:49.40287100][DEBUG]:worker_listen daemon pid:7384 Start
+[2018-06-16 15:41:48.10595600][DEBUG]:distribute_listen daemon pid:7856 Start
+[2018-06-16 15:41:49.21602000][DEBUG]:worker_listen daemon pid:6836 Start
+[2018-06-16 15:41:53.57626900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:41:53.57926900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:41:53.57926900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.003000s]
+[2018-06-16 15:41:58.86957200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:41:58.87057200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:41:58.87057200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:04.08087000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:04.08087000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:04.08187000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:42:09.31416900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:09.31516900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:09.31616900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:14.75848100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:14.75848100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:14.75948100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:42:20.19179100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:20.19179100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:20.19279200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:42:25.65810400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:25.65910400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:25.65910400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:31.23942300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:31.24042300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:31.24042300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:36.72473700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:36.72573700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:36.72573700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:42.16904900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:42.17004900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:42.17104900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:47.63836100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:47.63936100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:47.63936100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:42:53.16667800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:53.16667800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:53.16767800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:42:58.65799200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:42:58.65899200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:42:58.65899200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:43:04.20230900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:04.20330900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:04.20430900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:43:09.62461900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:09.62461900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:09.62561900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:43:15.86697600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:15.86797600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:15.86797600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:43:21.10227500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:21.10227500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:21.10327500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:43:26.83360300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:26.83360300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:26.83460300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:43:35.54110100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:35.54110100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:35.54110100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:43:40.89140700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:40.89140700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:40.89240700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:43:46.49072800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:46.49072800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:46.49172800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:43:52.04604500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:52.04604500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:52.04704500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:43:57.49135700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:43:57.49135700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:43:57.49235700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:44:03.01267300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:03.01367300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:03.01367300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:08.44598300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:08.44698300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:08.44698300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:13.96829900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:13.96929900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:13.97029900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:19.46761400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:19.46861400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:19.46961400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:24.88992400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:24.89092400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:24.89192400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:30.34623600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:30.34723600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:30.34723600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:35.91255400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:35.91355400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:35.91355400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:41.47887300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:41.47987300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:41.48087300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:46.95618600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:46.95718600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:46.95818600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:52.56750700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:52.56850700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:52.56950700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:44:57.97981600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:44:57.98081700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:44:57.98181700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:45:04.23217400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:04.23317400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:04.23417400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:09.44547200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:09.44647200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:09.44747200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:15.10779600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:15.10879600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:15.10879600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:20.32309400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:20.32409400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:20.32409400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:25.54639300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:25.54639300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:25.54739300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:45:31.05370800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:31.05370800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:31.05470800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:45:37.29906500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:37.30006500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:37.30006500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:42.54636600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:42.54636600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:42.54736600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:45:47.77966500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:47.77966500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:47.78066500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:45:53.72400500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:53.72500500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:53.72500500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:45:59.21731900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:45:59.21831900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:45:59.21831900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:04.86764200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:04.86864200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:04.86864200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:10.26795100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:10.26795100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:10.26895100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:15.84527000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:15.84627000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:15.84627000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:21.31258300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:21.31258300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:21.31358300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:46:26.84589900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:26.84689900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:26.84689900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:32.26720900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:32.26820900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:32.26920900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:37.84552800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:37.84652900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:37.84652900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:46:43.27983900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:43.28083900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:43.28083900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:48.75615200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:48.75715300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:48.75815300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:46:54.34547200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:54.34647200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:54.34647200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:46:59.72378000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:46:59.72378000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:46:59.72478000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:05.30909900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:05.30909900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:05.30909900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:47:11.03042700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:11.03042700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:11.03142700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.000000s]
+[2018-06-16 15:47:16.31172900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:16.31272900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:16.31372900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:21.69203600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:21.69203600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:21.69303600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:28.06840100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:28.06840100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:28.06940100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:47:33.27869900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:33.27969900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:33.27969900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:38.70701000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:38.70801000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:38.70801000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:44.16732200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:44.16832200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:44.16932200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:47:49.55663000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:49.55663000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:49.55763000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:47:55.80198700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:47:55.80198700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:47:55.80298700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:48:01.03428700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:01.03528700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:01.03528700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:48:06.25458500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:06.25458500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:06.25558500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:48:11.87690700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:11.87690700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:11.87790700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:48:17.45722600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:17.45722600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:17.45822600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:48:22.93453900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:22.93453900][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:22.93553900][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:48:28.41185200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:28.41185200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:28.41285300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:48:33.90116600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:33.90116600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:33.90216700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002001s]
+[2018-06-16 15:48:40.15352400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:40.15352400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:40.15352400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:48:45.39382400][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:45.39482400][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:45.39582400][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:48:50.68612600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:50.68712700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:50.68712700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:48:55.95642800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:48:55.95742800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:48:55.95842800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:49:01.52274600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:01.52274600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:01.52374600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:07.20107100][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:07.20107100][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:07.20207100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:49:12.64738300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:12.64838300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:12.64838300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:18.86773800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:18.86773800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:18.86873800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:49:24.10103800][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:24.10103800][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:24.10203800][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:49:29.31233600][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:29.31233600][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:29.31333600][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:34.68964300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:34.69064300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:34.69164300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:40.10095300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:40.10195300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:40.10195300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:45.58926700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:45.59026700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:45.59126700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:49:51.05657900][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:51.05758000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:51.05758000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001001s]
+[2018-06-16 15:49:57.36694000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:49:57.36794000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:49:57.36894100][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:50:02.63324200][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:02.63424200][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:02.63424200][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:50:07.85654000][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:07.85654000][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:07.85754000][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:50:13.22284700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:13.22284700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:13.22384700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
+[2018-06-16 15:50:18.73516300][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:18.73516300][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:18.73616300][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:50:24.23447700][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:24.23547700][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:24.23547700][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.001000s]
+[2018-06-16 15:50:30.32082500][DEBUG]:app\index\command\Demo::run [--START--]
+[2018-06-16 15:50:30.32182500][DEBUG]:demo1任务运行成功
+[2018-06-16 15:50:30.32182500][DEBUG]:app\index\command\Demo::run [--END--][RunTime:0.002000s]
