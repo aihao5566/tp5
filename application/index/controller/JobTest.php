@@ -14,6 +14,7 @@ use think\Queue;
 class JobTest {
     /** https://github.com/coolseven/notes/blob/master/thinkphp-queue/README.md
      * https://www.cnblogs.com/boundless-sky/p/8340706.html
+     * http://www.thinkphp.cn/topic/46464.html
      * 一个使用了队列的 action
      */
     public function actionWithHelloJob(){

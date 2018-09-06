@@ -9,12 +9,14 @@
 namespace app\index\job;
 
 
+use think\Db;
 use think\queue\Job;
 //消息的消费与删除
 //这是一个消费者类，用于处理 helloJobQueue 队列中的任务
 class Hello {
 
     /**  https://github.com/coolseven/notes/blob/master/thinkphp-queue/README.md
+     * http://www.thinkphp.cn/topic/46464.html
      * fire方法是消息队列默认调用的方法
      * @param Job            $job      当前的任务对象
      * @param array|mixed    $data     发布任务时自定义的数据
@@ -61,7 +63,13 @@ class Hello {
      */
     private function doHelloJob($data) {
         // 根据消息中的数据进行实际的业务处理...
-
+        $result =  Db::table('queue')->insert([
+            'ts' =>$data['ts'],
+            'bizId' =>$data['bizId']
+        ]);
+        if (!$result) {
+            return false;
+        }
         print("<info>Hello Job Started. job Data is: ".var_export($data,true)."</info> \n");
         print("<info>Hello Job is Fired at " . date('Y-m-d H:i:s') ."</info> \n");
         print("<info>Hello Job is Done!"."</info> \n");

@@ -10,7 +10,7 @@ class Test {
     //前提是定义过行为路径
     public function run(&$params){  //定义了行为类就执行(tags)
 //        echo '<script>alert("我是run");</script>';
-//        echo '钩子(行为)init'.'<br />';//因为系统本身定义了监听位，所以只要定义了这里就执行,控制器和前端在定义一次的话就输出两次
+//        echo '钩子(行为)init'.'<br />';//因为系统本身定义了监听位，所以只要定义了这里就执行,控制器或前端在定义一次的话就输出两次
 
         Hook::add('test1','app\\demo\\behavior\\Demo');//添加行为
     }
