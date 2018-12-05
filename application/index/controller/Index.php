@@ -64,7 +64,7 @@ class Index extends Base
     	$myTest = new myTest\myTest();  //命名空间下的手动注册有use不需要最前面的\ 在应用配置文件配置
     	echo $myTest->sayBey();
     	//echo 'app\\index\\controller';
-    	dump(\test\Test::class);//返回完整的类名字符串
+    	dump(\test\Test::className());//返回完整的类名字符串
         dump(\think\Config::get('ceshi.abc'));  //扩展配置测试
         dump(\think\Config::get('queue.connector'));  //扩展配置测试
         return config('app_namespace');

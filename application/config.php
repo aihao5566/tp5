@@ -42,11 +42,12 @@ return [
     // 默认时区
     'default_timezone'       => 'PRC',
     // 是否开启多语言
-    'lang_switch_on'         => false,
+    'lang_switch_on'         => true,
     // 默认全局过滤方法 用逗号分隔多个
     'default_filter'         => '',
     // 默认语言
     'default_lang'           => 'zh-cn',
+
     // 应用类库后缀
     'class_suffix'           => false,
     // 控制器类后缀
@@ -71,7 +72,7 @@ return [
     // 操作方法后缀
     'action_suffix'          => '',
     // 自动搜索控制器
-    'controller_auto_search' => false,
+    'controller_auto_search' => true,  //默认为false
 
 
 
@@ -230,7 +231,7 @@ return [
     // +----------------------------------------------------------------------
     'cookie'                 => [
         // cookie 名称前缀
-        'prefix'    => 'think_',
+        'prefix'    => '',
         // cookie 保存时间
         'expire'    => 0,
         // cookie 保存路径

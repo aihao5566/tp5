@@ -7,7 +7,7 @@ namespace app\index\controller;
 use think\Exception;
 
 use think\Queue;
-
+//使用方法:
 //在需要使用队列的地方使用下面的1~4来创建于推送消息，app\index\job\Hello类所在的fire会自动执行
 //消息的创建与推送
 //该控制器的业务代码中借助了thinkphp-queue 库，将一个消息推送到消息队列
