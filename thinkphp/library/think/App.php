@@ -56,7 +56,14 @@ class App
      */
     protected static $routeMust;
 
+    /**
+     * @var array 请求调度分发
+     */
     protected static $dispatch;
+
+    /**
+     * @var array 额外加载文件
+     */
     protected static $file = [];
 
     /**
@@ -105,6 +112,8 @@ class App
                 // 进行URL路由检测
                 $dispatch = self::routeCheck($request, $config);
             }
+//            print_r($dispatch);die;
+
             // 记录当前调度信息
             $request->dispatch($dispatch);
 
@@ -570,6 +579,7 @@ class App
             // 路由无效 解析模块/控制器/操作/参数... 支持控制器自动搜索
             $result = Route::parseUrl($path, $depr, $config['controller_auto_search']);
         }
+
         return $result;
     }
 

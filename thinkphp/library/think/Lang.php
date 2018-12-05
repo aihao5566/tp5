@@ -150,29 +150,34 @@ class Lang
 
     /**
      * 自动侦测设置获取语言选择
+     * @access public
      * @return string
      */
     public static function detect()
     {
-        // 自动侦测设置获取语言选择
         $langSet = '';
 
         if (isset($_GET[self::$langDetectVar])) {
-            // url中设置了语言变量
+            // url 中设置了语言变量
             $langSet = strtolower($_GET[self::$langDetectVar]);
+        } elseif (isset($_COOKIE[self::$langCookieVar])) {
+            // Cookie 中设置了语言变量
+            $langSet = strtolower($_COOKIE[self::$langCookieVar]);
         } elseif (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
             // 自动侦测浏览器语言
             preg_match('/^([a-z\d\-]+)/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'], $matches);
             $langSet     = strtolower($matches[1]);
             $acceptLangs = Config::get('header_accept_lang');
+
             if (isset($acceptLangs[$langSet])) {
                 $langSet = $acceptLangs[$langSet];
             } elseif (isset(self::$acceptLanguage[$langSet])) {
                 $langSet = self::$acceptLanguage[$langSet];
             }
         }
+
+        // 合法的语言
         if (empty(self::$allowLangList) || in_array($langSet, self::$allowLangList)) {
-            // 合法的语言
             self::$range = $langSet ?: self::$range;
         }
         return self::$range;

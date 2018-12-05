@@ -1202,7 +1202,6 @@ class Route
      */
     public static function parseUrl($url, $depr = '/', $autoSearch = false)
     {
-
         if (isset(self::$bind['module'])) {
             $bind = str_replace('/', $depr, self::$bind['module']);
             // 如果有模块/控制器绑定
