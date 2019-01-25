@@ -13,4 +13,9 @@ class Course extends Model
         return $this->belongsToMany('student','stu_cour','cour_id','stu_id');
 
     }
+
+    public function hasCourse($id)
+    {
+        return $this->student()->where('cour_id',$id)->count();
+    }
 }
