@@ -14,8 +14,8 @@ class Course extends Model
 
     }
 
-    public function hasCourse($id)
+    public function hasCourse($ids)
     {
-        return $this->student()->where('cour_id',$id)->count();
+        return $this->student()->where('cour_id',$ids)->count();
     }
 }
