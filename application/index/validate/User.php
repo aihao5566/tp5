@@ -13,6 +13,7 @@ class User extends BaseValidate
         'password|密码' =>  'require',
         'repassword|确认密码'=>'require|confirm:password',
         'address|地址' =>  'require',
+        '__token__|令牌' =>  'require|token',
     ];
 
     protected $message  =   [
@@ -29,7 +30,7 @@ class User extends BaseValidate
 
     /**场景设置**/
     protected  $scene = [
-        'add' => ['name', 'password','repassword'],// 添加
+        'add' => ['name', 'password','repassword','__token__'],// 添加
     ];
 
     /**手册上有参数的说明

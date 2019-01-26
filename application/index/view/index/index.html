@@ -22,10 +22,10 @@
 {$Think.config.default_module}
 <?php
 dump(\think\Request::instance()->param());
+dump(\think\Request::instance()->token());
 dump(\think\Config::get('default_module'));
 ?>
-
-
+<h3>{$breadcrumb}</h3>
 {volist name='list' id='vo'}
 <div>
     <div class="layui-form-item">

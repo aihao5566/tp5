@@ -11,7 +11,7 @@ class Test {
     public function run(&$params){  //定义了行为类就执行(tags)
 //        echo '<script>alert("我是run");</script>';
 //        echo '钩子(行为)init'.'<br />';//因为系统本身定义了监听位，所以只要定义了这里就执行,控制器或前端在定义一次的话就输出两次
-
+        //在behavior定义的类,直接运行run方法,在把这个test1加入,直到监听listen才运行
         Hook::add('test1','app\\demo\\behavior\\Demo');//添加行为
     }
 

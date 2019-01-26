@@ -98,6 +98,7 @@ class App
                 // 开启多语言机制 检测当前语言
                 Lang::detect();
             }
+            //设置语言
             $request->langset(Lang::range());
 
             // 加载系统语言包
@@ -112,11 +113,9 @@ class App
                 // 进行URL路由检测
                 $dispatch = self::routeCheck($request, $config);
             }
-//            print_r($dispatch);die;
 
             // 记录当前调度信息
             $request->dispatch($dispatch);
-
             // 记录路由和请求信息
             if (self::$debug) {
                 Log::record('[ ROUTE ] ' . var_export($dispatch, true), 'info');
@@ -391,7 +390,7 @@ class App
 
         // 监听module_init
         Hook::listen('module_init', $request);
-
+        //实例化控制器(控制器里有view对象的属性)
         $instance = Loader::controller($controller, $config['url_controller_layer'], $config['controller_suffix'], $config['empty_controller']);
         if (is_null($instance)) {
             throw new HttpException(404, 'controller not exists:' . Loader::parseName($controller, 1));

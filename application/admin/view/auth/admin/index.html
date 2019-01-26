@@ -6,6 +6,8 @@
 </head>
 <body>
 <a href="?lang=zh-cn">中文</a><a href="?lang=en">英文</a>
-{:lang('Login time')}
+<!--这里的url不能使用admin/auth/admin/edit-->
+{:lang('Login time')}<a href="{:url('admin/auth.admin/edit')}">edit</a>
+<script src="/static/js/require{$Think.config.app_debug?'':'.min'}.js" data-main="/static/js/require-backend{$Think.config.app_debug?'':'.min'}.js"></script>
 </body>
 </html>

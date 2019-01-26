@@ -13,8 +13,7 @@ class Admin extends Controller
 {
     public function index(){
         $controllername = strtolower($this->request->controller());
-        $this->loadlang($controllername);
-        // 切换多语言
+        // 切换多语言(可以写在行为扩展上)
         if (Config::get('lang_switch_on') && $this->request->get('lang'))
         {
             \think\Cookie::set('think_var', $this->request->get('lang'));
@@ -22,18 +21,24 @@ class Admin extends Controller
 
         // 语言检测
         $lang = strip_tags($this->request->langset());
-        $lang = $this->request->langset('en');
-        halt($lang);
+        //加载当前控制器语言包
+        $this->loadlang($controllername);
         $config = ['language' => $lang];
         $this->assign('config',$config);
+//        $this->redirect('index/index');
         return $this->fetch();
     }
 
     public function edit(){
-        return '222222';
+        $controllername = strtolower($this->request->controller());
+        //加载当前控制器语言包
+        $this->loadlang($controllername);
+
+        return $this->fetch();
     }
 
     //http://tp5.com/index.php/admin/auth/admin/index?lang=en  测试多语言
+    //有cookie前缀对应不上Lang类的语言Cookie变量think_var，所以无法使用cookie设置多语言。
     /**
      * 加载语言文件
      * @param string $name

@@ -17,13 +17,14 @@
 </fieldset>
 {$Request.controller}/{$Request.action}
 <form class="layui-form" action="" method="post">
-
+<!--  表单token  -->
+    <input type="hidden" name="__token__" value="{$Request.token}">
 
     <div class="layui-form-item">
         <label class="layui-form-label">搜索</label>
         <div class="layui-input-inline">
 
-            <!--测试当前对象是否还保留着request对象的属性{$Request.param.name}-->
+            <!--测试当前对象是否还保留着request对象的属性{$Request.param.name} 提交失败时测试-->
             <input type="text" class="layui-input" name="keyword" placeholder="搜索" value="{:input('param.name','')}">
         </div>
     </div>

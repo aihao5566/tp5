@@ -73,6 +73,8 @@ class Index extends Base
 
     public function index()
     {
+        $breadcrumb = '主页';
+        $this->view->breadcrumb = $breadcrumb;
 
 //        dump($this->request->param());die;
 //        dump(request()->siteName);//注入属性
@@ -101,6 +103,16 @@ class Index extends Base
             $condition['name'] = ['like','%'."{$kw}".'%'];
         }
         $condition['status'] = ['=',1];
+//        $sql = Db::name('user')->where($condition)->select();
+//        halt($sql);
+//        $sql = $user->where($condition)->order('id desc')->whereTime('create_time','-50 day')->select();
+//        $sql->hidden(['create_time','update_time']);
+//        return json($sql);
+//        $sql = collection($sql)->toArray();
+//        halt($sql);
+//        $list = User::all([127,128]);
+//        $list = $list->toArray();
+//        halt($list);
         //带条件翻页
         $list = $user->where($condition)->order('id desc')->paginate(3,false,['query'=>$request->param()]);
 //        $users = Db::name('user')->where('user_email','like',"{$params['email']}%")->paginate(10);
@@ -139,7 +151,6 @@ class Index extends Base
      */
     public function add()
     {
-       // dump($this->request->isPost());die;//当前$this实例有request属性对象
         if(Request::instance()->isPost()){  //判断是否是POST数据(调用静态方法不用实例化或者$this->request->isPost())
             //dump(input('post.'));die;
 
@@ -168,6 +179,7 @@ class Index extends Base
 
 
             $user = model('User');
+
             // 模型对象赋值
             $user->data($data);
             $user->info = ['a'=>1,'b'=>2];  //测试字段设置类型自动转换(要有模型支持)
@@ -214,7 +226,6 @@ class Index extends Base
                     ->update([
                         'login_time'  => ['exp','now()'],  //表达式给值 login_time = now()
                         'login_times' => ['exp','login_times+1'],
-                        //'id' => ['=',$id],//这里这样写错误，所以使用updata时条件最好写在where方法中
                     ]);
 //                halt($sql);//用tp自带的调试器查看sql
                 $this->success('添加成功','index/index');
@@ -224,6 +235,11 @@ class Index extends Base
 
         }
         return $this->fetch();
+
+    }
+
+    public function upload()
+    {
 
     }
 
@@ -343,11 +359,12 @@ class Index extends Base
             ->with(['profiles'=>function($query){$query->where(['user_id'=>['=',85]]);},'profiles.phone'])->where(['status'=>['=',1]])->select([85,86,87]);
 
 //        //网页的写法
-        foreach($list as $user){
-            // 获取用户关联的profile模型数据
-            dump($user->profiles->phone->getData());
-//            dump($user->toArray());
-        }
+//        foreach($list as $user){
+//            // 获取用户关联的profile模型数据
+//            dump($user->profiles->phone->toArray());
+////            dump($user->toArray());
+//        }
+        dump(collection($list)->toArray());//代替上面的循环
         //api接口返回的数据写法(直接给客户端)
 //        return json($list);//会把关联表的字段添加到父模型中{"name":xxx,...,"phone":xxx};对应上面的闭包
 
@@ -397,8 +414,8 @@ class Index extends Base
         $map['id'] = 1;
         $obj       = new Article();
         $data      = $obj->CommentsList($map);
-        dump($data);
-        dump($data->getData());
+        //dump($data);
+        dump($data->toArray());
         //删除当前文章
 //        $article->delete();
         //根据评论找到文章
@@ -424,24 +441,24 @@ class Index extends Base
     //多对多
     public function belongsToMany(){
         //关联新增
-        //为当前学生新增课程并且添加新的课程(如果课程表里面有该课程也会增加)--------
+        //为当前学生新增课程并且添加新的课程(如果课程表里面没有该课程,会在课程表里面新增该课程)--------
 //        $student=Student::get(1);
 //        //给关联表 course 新增一条 name 数据
-//        //$res= $student->course()->save(['name'=>'地理']);
+//        $res= $student->course()->save(['name'=>'政治']);
 
         //查询
 //        $student=Student::get(1);
 //        dump($student->course);//当前学生的所有课程
 
         //只新增中间表数据，可以使用 ----------------
-//        $student = Student::get(1);
-//        // 仅增加关联的中间表数据
-//        $student->course()->save(6);//save()里面的参数是关联表的主键
-        // 或者
-        //$course = course::get(5);
-        //$student->course()->save($course);
+        $student = Student::get(1);
+        // 仅增加关联的中间表数据
+//        $student->course()->save(6);//save()里面的参数是course表的主键
+        // 或者()
+//        $course = course::get(5);
+//        $student->course()->save($course);
         //或者
-        //$student->course()->attach(3);
+//        $student->course()->attach(3);
         // 批量增加关联数据
         //$student->course()->saveAll([1,2,3]);
 
@@ -451,7 +468,7 @@ class Index extends Base
 //        // 增加关联的中间表数据
 //        $student->course()->attach(2);//参数为要替换成关联表对应的主键
 //        // 传入中间表的额外属性
-//        //$student->course()->attach(1,['remark'=>'test']);//没有额外条件用上面的
+//        $student->course()->attach(1,['remark'=>'test']);//没有额外属性用上面的
 //        // 删除中间表数据
 //        $student->course()->detach([5]);//参数为被替换的关联表的主键
 
@@ -461,12 +478,17 @@ class Index extends Base
 //        $student->course()->detach([3]);    //要删除的关联表(参数为主键)
 
         //取数据
-        $course=Course::get(1);
-        $course = $course->student;
-        foreach ($course as $stu){
-            dump($stu->toArray());
-        }
-
+        $course=Course::get(1);//$course的对象中存在Course类的方法
+//        $course = $course->student;
+        $course->hasCourse(1);//测试关联之后的调用
+//        foreach ($course as $stu){
+//            dump($stu->toArray());
+//        }
+//        dump($course);
+//        //数组转换为数据集对象
+//        dump(collection($course));//多个结果就用
+        dump($course->toArray());
+//        dump(collection($course)->toArray());
 
     }
 

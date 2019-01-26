@@ -3,14 +3,14 @@
 namespace app\admin\library;
 
 use app\admin\model\Admin;
-use fast\Random;
-use fast\Tree;
+use util\Random;
+use util\Tree;
 use think\Config;
 use think\Cookie;
 use think\Request;
 use think\Session;
 
-class Auth extends \fast\Auth
+class Auth extends \util\Auth
 {
 
     protected $_error = '';
@@ -23,6 +23,7 @@ class Auth extends \fast\Auth
         parent::__construct();
     }
 
+    //当调用当前环境下未定义或不可见的类属性如 id token，重载方法会被调用。
     public function __get($name)
     {
         return Session::get('admin.' . $name);
