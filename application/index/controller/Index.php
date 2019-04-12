@@ -64,7 +64,7 @@ class Index extends Base
     	$myTest = new myTest\myTest();  //命名空间下的手动注册有use不需要最前面的\ 在应用配置文件配置
     	echo $myTest->sayBey();
     	//echo 'app\\index\\controller';
-    	dump(\test\Test::className());//返回完整的类名字符串
+    	dump(\test\Test::class);//返回完整的类名字符串
         dump(\think\Config::get('ceshi.abc'));  //扩展配置测试
         dump(\think\Config::get('queue.connector'));  //扩展配置测试
         return config('app_namespace');
@@ -81,8 +81,8 @@ class Index extends Base
 //        dump($this->request->user(1));die;//注入方法
         //行为侦听
         $params = ['a' => '我是自定义的行为'];
-        \think\Hook::listen('test1',$params,[],true);//这也可以写在前端上
-        \think\Hook::listen('test2',$params,[],true);//这也可以写在前端上
+//        \think\Hook::listen('test1',$params,[],true);//这也可以写在前端上
+//        \think\Hook::listen('test2',$params,[],true);//这也可以写在前端上
 //        dump(session(''));//重定向测试
         $user = model('User');
         //数据库注册事件
@@ -114,7 +114,7 @@ class Index extends Base
 //        $list = User::all([127,128]);
 //        $list = $list->toArray();
 //        halt($list);
-        //带条件翻页
+        //带条件翻页(paginate方法会获取当前页)
         $list = $user->where($condition)->order('id desc')->paginate(3,false,['query'=>$request->param()]);
 //        $users = Db::name('user')->where('user_email','like',"{$params['email']}%")->paginate(10);
 //        halt($list[0]);
@@ -407,7 +407,7 @@ class Index extends Base
         $comments = $article->comments;
         foreach ($comments as $k=>$comment){
             //当前文章的所有评论信息
-            //dump($comment->content);
+            dump($comment->content);
             //循环删除所有评论
 //            $article->comments()->delete();
         }
@@ -444,15 +444,15 @@ class Index extends Base
         //关联新增
         //为当前学生新增课程并且添加新的课程(如果课程表里面没有该课程,会在课程表里面新增该课程)--------
 //        $student=Student::get(1);
-//        //给关联表 course 新增一条 name 数据
-//        $res= $student->course()->save(['name'=>'政治']);
+//        //给关联表 course 新增一条 name 数据// 增加关联数据 会自动写入中间表数据
+//        $res= $student->course()->save(['name'=>'化学']);
 
         //查询
 //        $student=Student::get(1);
 //        dump($student->course);//当前学生的所有课程
 
         //只新增中间表数据，可以使用 ----------------
-        $student = Student::get(1);
+        //$student = Student::get(1);
         // 仅增加关联的中间表数据
 //        $student->course()->save(6);//save()里面的参数是course表的主键
         // 或者()
@@ -480,16 +480,17 @@ class Index extends Base
 
         //取数据
         $course=Course::get(1);//$course的对象中存在Course类的方法
-//        $course = $course->student;
-        $course->hasCourse(1);//测试关联之后的调用
+        //halt($course);
+        $students = $course->student;
+        //$course->hasCourse(1);//测试关联之后有条件的调用
 //        foreach ($course as $stu){
 //            dump($stu->toArray());
 //        }
-//        dump($course);
+//        dump($students);//得到的是数组对象
+//        dump($course);//得到的是对象
 //        //数组转换为数据集对象
-//        dump(collection($course));//多个结果就用
-        dump($course->toArray());
-//        dump(collection($course)->toArray());
+//        dump(collection($students));//对象之后就能使用方法了
+        dump(collection($students)->toArray());
 
     }
 

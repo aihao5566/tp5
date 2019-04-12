@@ -10,7 +10,7 @@ class Course extends Model
     //protected $hidden = ['pivot'];
     public function student(){
 
-        return $this->belongsToMany('student','stu_cour','cour_id','stu_id');
+        return $this->belongsToMany('student','stu_cour','stu_id','cour_id');
 
     }
 
