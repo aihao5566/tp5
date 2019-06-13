@@ -80,7 +80,7 @@ class Index extends Base
 //        dump(request()->siteName);//注入属性
 //        dump($this->request->user(1));die;//注入方法
         //行为侦听
-        $params = ['a' => '我是自定义的行为'];
+        $params = ['a' => '我是自定义的行为!'];
 //        \think\Hook::listen('test1',$params,[],true);//这也可以写在前端上
 //        \think\Hook::listen('test2',$params,[],true);//这也可以写在前端上
 //        dump(session(''));//重定向测试
